@@ -1,0 +1,464 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practica_CSS_Vaccination</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!--Menu Principal-->
+    <nav>
+        <ul class="ulmenu">
+            <h1 class="tittle">Vaccination</h1>
+            <li><a href="#menu1">Database</a></li>
+            <li><a href="#menu2">Education</a></li>
+            <li><a href="#menu3">News</a></li>
+            <li><a href="#menu4">Regulation</a></li>
+            <li><a href="#menu5"><button class="button1">Hoax Buster</button></a></li>
+        </ul>
+    </nav>
+
+    <!--Primera Seccion-->
+    <div class="sectionInitial">
+        <article class="articleInitial">
+            <p class="pVirus">
+                Fight Virus <br>
+                With Vaccines
+            </p>
+            <p class="pVirus2">
+                Let's stop this pandemic by killing the virus <br><br>
+                with a vaccine, don't let yourself and your <br><br>
+                family get infected
+            </p>
+            <ul class="ulSec1">
+                <li><a href="#"><img src="img\escudo.png" alt="Best Protection" width="20px" height="20px">
+                Best protection</a></li>
+                <li><a href="#"><img src="img\yellow-star-vector.png" alt="Selected Vaccines" width="20px" height="20px">
+                Selected Vaccines</a></li>
+            </ul>
+        </article>
+        
+        <article class="articleImg1">
+            <img src="img\pexels-alena-shekhovtcova-6075010.jpg" alt="Vaccine" width="100%" height="100%">
+        </article>
+    </div>
+
+    <!--Formularion de Vacunacion-->
+    <section class="section1">
+    
+        <div class="divschedule">
+            <p><b>
+                <img src="img\iconssymboblue.png" alt="Schedule" width="20p" height="20px">Schedule your vaccinations
+            </b></p>
+        </div>   
+
+        <div class="divform">
+            <form action="" class="form">
+            <div class="contentSelect">
+                <p><img src="img\locationvector.jpg" alt="Location" width="20px" height="20px">Location</p>
+                <label for="Location"></label>
+                <select class="selectLocation" id="Location" name="Location">
+                    <option value="Aguascalientes">Aguascalientes</option>
+                    <option value="Baja_California">Baja California</option>
+                    <option value="Baja_California_Sur">Baja California Sur</option>
+                    <option value="Campeche">Campeche</option>
+                    <option value="Chiapas">Chiapas</option>
+                    <option value="Chihuahua">Chihuahua</option>
+                    <option value="CDMX">Ciudad de México</option>
+                    <option value="Colima">Colima</option>
+                    <option value="Coahuila">Coahuila</option>
+                    <option value="Durango">Durango</option>
+                    <option value="Guanajuato">Guanajuato</option>
+                    <option value="Guerrero">Guerrero</option>
+                    <option value="Hidalgo">Hidalgo</option>
+                    <option value="Jalisco">Jalisco</option>
+                    <option value="México">México</option>
+                    <option value="Michoacán">Michoacán</option>
+                    <option value="Morelos">Morelos</option>
+                    <option value="Nayarit">Nayarit</option>
+                    <option value="Nuevo_Leon">Nuevo León</option>
+                    <option value="Oaxaca">Oaxaca</option>
+                    <option value="Puebla">Puebla</option>
+                    <option value="Querétaro">Querétaro</option>
+                    <option value="Quintana_Roo">Quintana Roo</option>
+                    <option value="San_Luis_Potosi">San Luis Potosí</option>
+                    <option value="Sinaloa">Sinaloa</option>
+                    <option value="Sonora">Sonora</option>
+                    <option value="Tabasco">Tabasco</option>
+                    <option value="Tamaulipas">Tamaulipas</option>
+                    <option value="Tlaxcala">Tlaxcala</option>
+                    <option value="Veracruz">Veracruz</option>
+                    <option value="Yucatan">Yucatán</option>
+                    <option value="Zacatecas">Zacatecas</option>
+                </select>
+            </div>
+
+            <div>
+                <p><img src="img\datevector.png" alt="Date" width="20px" height="20px"> Date</p>
+                <input type="date"  class="inputDate" id="fecha1" name="fecha1">
+            </div>
+
+            <div>
+                <p><img src="img\escribiricono.png" alt="Vacine type" width="20px" height="20px"> Vaccine Type</p>
+                <label for="vaccineType"></label>
+                <input list="vaccineType" class="inputVaccine">
+                <datalist id="vaccineType">
+                    <option value="Moderna">
+                    <option value="Johnson & Jhonson">
+                    <option value="Pfizer-BioNTech">
+                    <option value="AstraZeneca-Oxford">
+                    <option value="Sputnik V">
+                    <option value="Sinovac">
+                    <option value="CanSino">
+                    <option value="Covaxin">
+            </div>
+            
+            <div>
+                <button class="button1" type="submit">Submit</button>
+            </div>
+            </form>
+        </div>
+    
+        <!--Triangulos Decoracion de Primera Seccion-->
+        <div class="triangulo1"></div>
+        <div class="triangulo2"></div>
+    </section>  
+    
+    <!--Segunda Seccion- Imagen de vacunas-->
+    <section class="section2">
+            <img src="img\Vaccine.png" alt="Vaccine" width="80%" height="40%">
+    </section>
+
+    <!--Tercera Seccion- Datos de Porque Vacunarse-->
+    <section class="section3">
+        <p class="pVirus3">
+            Why should I vaccine?
+        </p>
+        <br><br><br>
+        <p class="pVirus4">
+            In order to avoid any doubts about getting the COVID-19 <br>
+            vaccine, identify the following 4 benefits of COVID-19  <br>
+            vaccination:
+        </p>
+
+        <br><br><br>
+
+            <!--div de Datos de Porque Vacunarse-->
+        <div class="divWhy">
+
+            <div>
+                <img src="img\33925-n-stage-nlement_blank-int.png" alt="" width="70px" height="50px">
+                <p class="pTittleDiv">
+                    Minimize the spread <br>
+                    of viruses
+                </p>
+                <p class="pContentDiv">
+                    Vaccine has been proven <br>
+                    effective to prevent someone <br>
+                    from gettin infected with <br>
+                    Coronavirus
+                </p>
+            </div>
+
+            <div>
+                <img src="img\molecule-strucutre_monoclonal-antibody.png" width="50px" height="50px">
+                <p class="pTittleDiv">
+                    Forming <br>
+                    antibodies
+                </p>
+                <p class="pContentDiv">
+                    COVID-19 vaccine proven to <br>
+                    help shape antibody <br>
+                    response for immune system
+                </p>
+            </div>
+
+            <div>
+                <img src="img\peopleNerby.png" alt="" width="50px" height="50px">
+                <p class="pTittleDiv">
+                    Protecting <br>
+                    people nearby
+                </p>
+                <p class="pContentDiv">
+                    The benefits of COVID-19 <br>
+                    vaccination are the vaccine <br>
+                    that we get can also help<br>
+                    protect people around us
+                </p>
+            </div>
+
+            <div>
+                <img src="img\immune-population-herd-immunity-icon-vector_116137-4998.png" alt="" width="50px" height="50px">
+                <p class="pTittleDiv">
+                    Creating group <br>
+                    immunity
+                </p>
+                <p class="pContentDiv">
+                    COVID-19 vaccination is also <br>
+                    beneficial for creating group <br>
+                    immunityor herd immunity
+                </p>
+            </div>
+        </div>
+
+            <!--Triangulo y Decoracion de Tercera Seccion-->
+        <div class="triangulo3"></div>
+        <hr class="Line1">
+    </section>
+
+    <!--Cuarta Seccion- Datos de antes de Vacunarse-->
+    <section class="section4">
+        <div class="divImgS4">
+            <img src="img\pexels-mikhail-nilov-8543401.jpg" alt="person" width="100%" height="950px">
+        </div>
+
+        <div class="divContentS4">
+            <p class="pVirus3">
+                Preparations Before Vaccine
+            </p>
+
+            <br><br><br>
+
+            <p class="pVirus4">
+                The succes of vaccines is strongly influenced by the <br>
+                strength of the body's immune system. Therefore, there are <br>
+                several things that can be tried to make the COVID-19 <br>
+                vaccine work:
+            </p>
+        
+            <!--div de datos desglosados de Antes de Vacunarse-->
+            <div class="divNav">
+                <details open>
+                    <summary>  
+                        <img src="img\alcoholicprohibition.png" alt="" width="30px" height="30px"> 
+                             <p> Avoid alcoholic beverages </p>
+                        <img src="img\flecha.png" class="imgFlecha" alt="flecha" width="10px" height="30px">
+                    </summary>
+
+                    <p>
+                        Long term heavy drinking reduces immune protection, <br>
+                        and specifically for respiratory infections, which <br>
+                        include Covid-19.
+                    </p>
+                </details>
+
+                <br>
+
+                <details>
+
+                    <summary> 
+                        <img src="img\stresslogosleep.png" alt="" width="30px" height="30px"> 
+                            <p>Avoid stress</p>
+                        <img src="img\flecha.png" class="imgFlecha" alt="flecha" width="10px" height="30px">   
+                    </summary>
+
+                    <p>                         
+                        Stress has a profound effect on immune work. <br>
+                        Moreover, prolonged stress can increase cortisol <br>
+                        production and oxidative stress in the body.
+                    </p>  
+                </details>
+
+                <br>
+
+                <details>
+                    <summary>
+                        <img src="img\healthfoodeating.png" alt="" width="30px" height="30px"> 
+                            <p>Eat healthy food</p>
+                        <img src="img\flecha.png" class="imgFlecha" alt="flecha" width="10px" height="30px"> 
+                    </summary>
+
+                    <p>
+                        Making a few simple changes to your diet before <br>
+                        getting vaccinated can be a great way to help <br>
+                        alleviate certain side effects and enhance your <br>
+                        immunity.
+                    </p>
+                </details>
+
+                <br>
+
+                <details>
+                    <summary>
+                        <img src="img\sleepbed.png" alt="" width="30px" height="30px"> 
+                            <p>Get enough sleep</p>
+                        <img src="img\flecha.png" class="imgFlecha" alt="flecha" width="10px" height="30px">
+                    </summary>
+
+                    <p>
+                        Make sure you get some good rest before you get <br>
+                        your shot, sleep experts say. That's because <br>
+                        adequate sleep is an important factor in a strong<br> 
+                        immune system.
+                    </p>
+                </details>
+
+                <br>
+
+                <details>
+                    <summary>
+                            <img src="img\healthcare.png" alt="" width="30px" height="30px"> 
+                                <p>Exercise or physical activity </p>
+                            <img src="img\flecha.png" class="imgFlecha" alt="flecha" width="10px" height="30px">
+                    </summary>
+
+                    <p>
+                        There is research that suggests that working <br>
+                        out before you get vaccinated may help boost your <br>
+                        body's immune response, which is how the body <br>
+                        reacts to potentially harmful invaders.
+                    </p>
+                </details>
+            </div>
+        </div>
+            <!--Triangulo y Decoracion de Cuarta Seccion-->
+        <div class="triangulo4"></div>
+    </section>
+    <hr class="Line2">
+    
+    <!--Quinta Seccion- Datos de contacto-->
+    <section class="section5">
+        <div class="divContentS5">
+            <p class="pVirus3">
+                Emergency Contact
+            </p>
+            <br><br><br>
+            <p class="pVirus4">
+                Contact one of the contacts below if you or your family feel <br>
+                unwell and have similar symptoms such as Covid-19, make <br>
+                sure you also take care of yourself before reporting to use:
+            </p>
+
+            <div class="divContact">
+                <div>
+                    <div>
+                        <img src="img\callcommunicationphonesupport.jpg" alt="Call">
+                    </div>
+                    <div>
+                        <p class="pTypeContact">Call</p>
+                        <p class="pNumberContact">021-123-145-14</p>
+                    </div>
+                    <button class="buttonContact">Call Now</button>
+                </div>
+
+                <div>
+                    <div>
+                        <img src="img\chatinterfaceline.jpg" alt="Chat">
+                    </div>
+                    <div>
+                        <p class="pTypeContact">Chat</p>
+                        <p class="pNumberContact">021-123-145-14</p>
+                    </div>
+                    <button class="buttonContact">Chat Now</button>
+                </div>
+
+                <div>
+                    <div>
+                        <img src="img\cameraimage.jpg" alt="Video Call">
+                    </div>
+                    <div>
+                        <p class="pTypeContact">Video Call</p>
+                        <p class="pNumberContact">021-123-145-14</p>
+                    </div>
+                    <button class="buttonContact">Video Call Now</button>
+                </div>
+
+                <div>
+                    <div>
+                        <img src="img\mailmessage.jpg" alt="Message">
+                    </div>
+                    <div>
+                        <p class="pTypeContact">Messange</p>
+                        <p class="pNumberContact">021-123-145-14</p>
+                    </div>
+                    <button class="buttonContact">Message Now</button>
+                </div>
+            </div>
+       </div>
+
+            <div class="divImgS5">
+                <img src="img\pexels-antoni-shkraba-5214989.jpg" alt="Contact" width="100%" height="750px">
+            </div>
+           
+            <!--Triangulo y Decoracion de Quinta Seccion-->
+        <div class="triangulo5"></div>
+    </section>
+    <hr class="Line3">
+
+    <!--Sexta Seccion- Pie de pagina-->
+    <footer>
+        <div class="divFooter1">
+            <div class="divVaccinationF">
+                <p class="pTitleF1">
+                    Vaccination
+                </p>
+                <br>
+                <p class="pContentF1">
+                    Our goal is to help the <br>
+                    world free from the <br>
+                    ongoing pandemic
+                </p>
+            </div>
+        
+            <div class="divAboutF">
+                <p class="pTitleF">About</p>
+                <br>
+                <ul class="ulFooter">
+                    <li><a href="#" class="aFooter">About Us</a></li>
+                    <br>
+                    <li><a href="#" class="aFooter">Features</a></li>
+                    <br>
+                    <li><a href="#" class="aFooter">News & Blogs</a></li>
+                </ul>
+            </div>
+
+            <div class="divCompanyF">
+                <p class="pTitleF">Company</p>
+                <br>
+                <ul class="ulFooter">
+                    <li><a href="#" class="aFooter">How We Work</a></li>
+                    <br>
+                    <li><a href="#" class="aFooter">Capital</a></li>
+                    <br>
+                    <li><a href="#" class="aFooter">Security</a></li>
+                </ul>
+            </div>
+
+            <div class="divSupportF">
+                <p class="pTitleF">Support</p>
+                <br>
+                <ul class="ulFooter">
+                    <li><a href="#" class="aFooter">FAQs</a></li>
+                    <br>
+                    <li><a href="#" class="aFooter">Support Center</a></li>
+                    <br>
+                    <li><a href="#" class="aFooter">Contact us</a></li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="divFooter2">
+            <div class="divVaccinationF2">
+                <p>
+                    @2021 Vaccination. All rights reserved
+                </p>
+            </div>
+
+            <div class="divTermsF2">
+                <p>
+                    Terms & Agreements 
+                </p>
+                <p>
+                    Privacy Policy
+                </p>
+            </div>
+        </div>
+
+        <!--Triangulo Decorativo de Sexta Seccion-->
+        <div class="triangulo6"></div>
+    </footer>
+    
+</body>
+</html>

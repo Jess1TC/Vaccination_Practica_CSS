@@ -1,0 +1,621 @@
+*{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0;
+}
+
+/*Menu Principal*/
+nav {
+    width: 100%;
+    background: linear-gradient(
+        90deg,
+         white 55%,
+
+         azure 45%
+    );
+    height: 120px;
+}
+
+.ulmenu {
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 3%;
+    margin-left: 20px auto;
+    margin-right: 20px auto;
+    padding-right: 10%;
+    padding-top: 20px;
+}
+
+.ulmenu > li {
+    float: left;
+    margin: 10px;
+    color: rgba(107, 113, 120, 0.942);
+}
+
+.ulmenu > li > a {
+    text-decoration: none;
+    color: rgba(107, 113, 120, 0.942);
+}
+
+.ulmenu > li > a:hover {
+    font-weight: bold;
+}
+
+
+h1 {
+    text-align: right;
+}
+
+.tittle {
+    display: flex;
+    flex-grow: 2;
+    padding-left: 5%;
+    color: rgba(4, 4, 178, 0.773);
+}
+
+.button1 {
+    font-size: 16px;
+    background-color: rgba(4, 4, 178, 0.773);
+    border-radius: 5px;
+    border: 1px;
+    color: azure;
+    width: 130px;
+    height: 40px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+.button1:hover {
+  box-shadow: 0 15px 26px 0 rgba(0, 0, 0, 0.356), 0 17px 50px 0 rgba(0, 0, 0, 0.23);
+  cursor:pointer ;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+/*Primera Seccion*/
+.sectionInitial > .articleInitial {
+    width: 55%;
+    height: 800px;
+}
+
+.sectionInitial > .articleImg1 {
+    width: 45%;
+    height: 800px;
+}
+
+.sectionInitial {
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    position: absolute;
+    z-index: 0;  
+}
+
+    /*Primera Seccion-->Formulario*/
+.section1 {
+    width: 100%;
+    height: 800px;
+}
+
+.divform {
+    width: 65%;
+    height: 100px;
+    background-color: rgba(255, 255, 255, 0.581);
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: 20px auto;
+    margin-right: 20px auto;
+    padding-bottom: 10px;
+    position: absolute;
+    z-index: 2;
+    top: 780px;
+    left: 10%;
+    border-radius: 5px;
+    box-shadow: 0.3em 0.3em 1em #080f5954;
+}
+
+.divform > div {
+    width: 16.25%;
+}
+
+.form {
+    width: 65%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 12%;
+    color: rgba(0, 0, 0, 0.666);
+}
+
+.divschedule {
+    position: absolute;
+    z-index: 1;
+    top: 700px;
+    left: 8%;
+    color: rgb(10, 10, 90);
+}
+
+.selectLocation, .inputDate, .inputVaccine {
+    border: none;
+    font-size: 16px;  
+}
+
+    /*Primera Seccion-->Texto Inicial*/
+.pVirus {
+    font-size: 50px;
+    font-weight: bold;
+    color: rgb(18, 18, 135);
+    text-align: left;
+    padding-left: 15%;
+    padding-top: 100px;
+}
+
+.pVirus2 {
+    color: rgba(107, 113, 120, 0.942);
+    text-align: left;
+    padding-left: 15%; 
+    padding-top: 50px;
+}
+
+.ulSec1 {
+    list-style: none;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 5%;
+    margin-left: 20px auto;
+    margin-right: 20px auto;
+    padding-left: 15%;
+    padding-top: 40px;
+}
+
+.ulSec1 > li > a {
+    text-decoration: none;
+    color: rgb(18, 18, 135);
+}
+
+    /*Primera Seccion-->Triangulos decorativos*/
+.triangulo1 {
+    width: 0;
+    height: 0;
+    border-top: 90px solid rgba(190, 190, 217, 0.15);
+    border-right: 90px solid transparent;
+    border-left: 90px solid transparent;
+    position: relative;
+    left: 2%;
+    }
+
+.triangulo2 {
+    width: 0;
+    height: 0;
+    border-top: 150px solid transparent;
+    border-right: 150px solid rgba(190, 190, 217, 0.15);
+    border-bottom: 150px solid transparent;
+    position: relative;
+    left: 45.3%;
+    top: 195px;
+}
+
+/*Segunda Seccion*/
+
+.section2 {
+    width: 100%;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/*Tercera Seccion*/
+
+.section3 {
+    width: 100%;
+    height: 700px;
+}
+
+.pVirus3 { /*Aplica para todos los titulos de Seccion*/
+    font-size: 35px;
+    font-weight: bold;
+    color: rgb(18, 18, 135);
+    text-align: left;
+    padding-left: 8%;
+    padding-top: 50px;
+}
+
+.pVirus4 {  /*Aplica para todos los contenidos de Seccion*/
+    color: rgba(107, 113, 120, 0.942);
+    text-align: left;
+    padding-left: 8%;  
+}
+
+    /*Tercera Seccion-->div Contenido*/
+.divWhy {
+    width: 100%;
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3%;
+}
+
+.divWhy > div {
+    width: 16%;
+    height: 100%;
+    border-style: solid;
+    border-width: thin;
+    border-radius: 10px;
+    border-color: rgba(0, 0, 0, 0.125);
+    display: flex;
+    flex-direction: column;
+    align-content: flex-start;
+    flex-wrap: wrap;
+    padding: 1em;
+    box-shadow: 7px 7px 15px #080f5951;
+    
+}
+
+.divWhy > div:hover {
+    box-shadow: 0 12px 16px 0 #080f5954, 0 17px 50px 0 #080f5928;
+    cursor:pointer ;
+}
+
+.pTittleDiv {
+    font-size: 18px;
+    font-weight: bolder;
+    color: rgb(18, 18, 135);
+    text-align: left;
+    padding-top: 20px;
+    margin-left: 20px;
+}
+
+.pContentDiv {
+    font-size: 13px;
+    color: rgba(107, 113, 120, 0.942);
+    text-align: left;
+    padding-top: 15px;
+    margin-left: 20px;
+}
+
+.divWhy > div > img {
+    padding-top: 15px;
+    margin-left: 20px;
+}
+
+    /*Tercera Seccion-->Triangulo y decorativo*/
+.triangulo3 {
+    width: 0;
+    height: 0;
+    border-top: 150px solid transparent;
+    border-right: 150px solid rgba(190, 190, 217, 0.15);
+    border-bottom: 150px solid transparent;
+    position: relative;
+    left: 90%;
+    top: -585px;
+}
+
+.Line1 {
+    border: none;
+    height: 3px;
+    margin-left: 55%;
+    margin-right: 0;
+    background-color: rgba(190, 190, 217, 0.15);
+    position: relative;
+    top: -736px;
+}
+
+/*Cuarta Seccion*/
+.section4 {
+    width: 100%;
+    height: 1150px;
+    display: flex;
+}
+
+.divImgS4 {
+    width: 45%;
+    height: 1150px;
+    padding-top: 270px;
+}
+
+.divContentS4, .divNav {
+    width: 55%;
+    height: 900px;
+    padding-left: 80px;
+    padding-top: 70px;
+}
+
+    /*Cuarta Seccion - inf desplegable*/
+
+.divNav > details {
+    width: 100%;
+    height: 80px;
+    text-decoration: none;
+    margin-right: 8%;
+}
+
+.divNav > details > summary {
+    text-decoration: none;
+    color: rgb(18, 18, 135);
+    display: flex;
+    justify-content: flex-end;
+    align-content: center;
+    align-items: center;
+    gap: 2%;
+    margin: 3%;
+    padding-top: 10px;
+    padding-right: 5px;
+}
+
+.divNav > details > summary > p {
+    flex-grow: 2;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.imgFlecha {
+    transform: rotate(90deg);
+}
+
+.imgFlecha:hover {
+    box-shadow: 0 12px 16px 0 #080f5941, 0 17px 50px 0 #080f5928;
+    cursor: pointer;
+}
+
+.divNav > details > p { 
+    font-size: 13px;
+    color: rgba(107, 113, 120, 0.942);
+    text-align: left;
+    padding-top: 15px;
+    margin-left: 10%;
+    padding-right: 5px;
+}
+
+.divNav > details[open] {
+    width: 100%;
+    height: 150px;
+    text-decoration: none;
+    margin-right: 10%;
+    border-style: solid;
+    border: .5px;
+    border-color: rgba(107, 113, 120, 0.5);
+    border-radius: 5px;
+    box-shadow: 0 12px 16px 0 #080f5941, 0 17px 50px 0 #080f5928;
+}
+
+.divNav > details[open] summary {
+    font-size: 17px;
+}
+
+.divNav > details[open] .imgFlecha {
+    transform: rotate(270deg);
+}
+
+    /*Cuarta Seccion-->Triangulo y decorativo*/
+.triangulo4 {
+    width: 0;
+    height: 0;
+    border-left: 150px solid rgba(190, 190, 217, 0.15);
+    border-top: 150px solid transparent;
+    border-bottom: 150px solid transparent; 
+    position: absolute;
+    right: 90%;
+    top: 1895px;
+}
+
+.Line2 {
+    border: none;
+    height: 3px;
+    margin-left: 0%;
+    margin-right: 55%;
+    background-color: rgba(190, 190, 217, 0.15);
+    position: relative;
+    top: -1025px;
+}  
+
+/*Quinta Seccion*/
+.section5 {
+    width: 100%;
+    height: 1050px;
+    padding-top: 5%;
+    display: flex;
+}
+
+.divImgS5 {
+    width: 45%;
+    height: 900px;
+    padding-top: 15%;
+}
+
+.divContentS5 {
+    width: 55%;
+    height: 800px;
+    padding-left: 80px;
+    padding-top: 50px;
+}
+.divContact {
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 50px;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 5%;
+    padding-right: 80px;
+}
+
+    /*Quinta Seccion-Numeros de contacto*/
+
+.divContact > div {
+    width: 45%;
+    height: 250px;
+    border-style: solid;
+    border: 5px;
+    border-color: rgba(0, 0, 255, 0.1);
+    border-radius: 10px;
+    margin-bottom: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-content: center;
+    box-shadow: 1px 1px 3px #080f59ad;
+}
+
+.divContact > div:hover {
+    box-shadow: 10px 10px 20px #080f5951;
+}
+
+.buttonContact {
+    font-size: 16px;
+    background-color: rgba(4, 4, 178, 0.114);
+    border-radius: 5px;
+    border: 1px;
+    color: rgba(4, 4, 178, 0.773);
+    width: 140px;
+    height: 40px;
+}
+
+.buttonContact:hover {
+    color: azure;
+    background-color: rgba(4, 4, 178, 0.773);
+    box-shadow: 0 12px 16px 0 #080f598a, 0 17px 50px 0 #080f59da;
+    cursor:pointer ;
+}
+
+.divContact > div > div > img {
+    width: 80px;
+    height: 80px;
+    padding-bottom: 20px;
+}
+
+.pTypeContact{
+    font-size: 15px;
+    font-weight: bold;
+    color: rgb(18, 18, 135);
+    text-align: left;
+    padding-left: 8%;
+    padding-top: 20px;
+}
+.pNumberContact {
+    width: 100%;
+    font-size: small;
+    color: rgba(107, 113, 120, 0.942);
+    text-align: left;
+    padding-left: 8%;
+    display: flex;
+    flex-direction: row;
+    margin-right: 15px;
+}
+
+    /*Quinta Seccion-->Triangulo y decorativo*/
+.triangulo5 {
+    width: 0;
+    height: 0;
+    border-top: 150px solid transparent;
+    border-right: 150px solid rgba(190, 190, 217, 0.15);
+    border-bottom: 150px solid transparent;
+    position: absolute;
+    left: 90%;
+    margin-top: -25px;
+}
+    
+.Line3 {
+    border: none;
+    height: 3px;
+    margin-left: 55%;
+    margin-right: 0;
+    background-color: rgba(190, 190, 217, 0.15);
+    position: relative;
+    top: -925px;
+}
+
+/*Sexta Seccion- Pie de pagina*/
+footer {
+    background-color: rgba(4, 4, 178, 0.114);
+}
+.divFooter1 {
+    display: flex;
+    justify-content: space-between; 
+    padding-top: 3%;
+    margin-left: 8%;
+    margin-right: 5%;
+}
+
+.divFooter2 {
+    display: flex;
+    justify-content: space-between; 
+    padding-top: 3%;
+    margin-left: 8%;
+    margin-right: 8%; 
+    color: rgba(107, 113, 120, 0.942);
+    font-size: medium;
+    padding-bottom: 2%;
+}
+
+.divVaccinationF {
+    display: flex;
+    flex-grow: 2;
+    flex-direction: column;
+
+}
+
+.divAboutF, .divCompanyF, .divSupportF {
+    text-align: left;
+    margin: 1%;
+    padding-right: 5%;
+}
+
+.pTitleF {
+    font-size: 16px;
+    font-weight: bold;
+    color: rgb(18, 18, 135);
+}
+
+.ulFooter  {
+    list-style: none; 
+    padding-left: 0;
+    margin-left: 0;  
+}
+
+.aFooter {
+    text-decoration: none;
+    font-size: 14px;
+    color: rgba(107, 113, 120, 0.942);
+}
+
+.aFooter:hover {
+    font-weight: bold;
+    text-shadow: rgba(107, 113, 120, 0.942) 0 -1px;
+}
+.pTitleF1 {
+    font-size: 20px;
+    font-weight: bold;
+    color: rgba(4, 4, 178, 0.773);
+}
+
+.pContentF1 {
+    font-size: 14px;
+    color: rgba(107, 113, 120, 0.942);
+    font-weight: lighter;
+}
+
+.divTermsF2 {
+    width: 30%;
+    display: flex;
+    flex-direction: row;
+    gap: 15%;
+}
+
+    /*Sexta Seccion-->Triangulo decorativo*/
+.triangulo6 {
+    width: 0;
+    height: 0;
+    border-right: 100px solid transparent;
+    border-top: 100px solid transparent;
+    border-left: 100px solid transparent;
+    border-bottom: 100px solid rgba(190, 190, 217, 0.25);
+    position: absolute;
+    left: 72%;
+    margin-top: -200px;
+}
